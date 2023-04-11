@@ -39,7 +39,7 @@ a {
     width: 2000px;
     height: 200px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     text-align: center;
     background-color: antiquewhite;
     color: orange;
@@ -53,39 +53,61 @@ a {
     font-size: 24px;
 }
 
+.main {
+    position: relative;
+    top: 200px;
+}
 
-body {
-    font-family: Arial;
-    margin: 0;
-  }
-  
-  main {
-    /* Turns this element into a flexbox */
-    display: flex;
-    /* Forces elements to the next line if they don't fit */
-    flex-wrap: wrap;
-    margin-top: 2%;
-  
+h2 {
+    position:relative;
+    color:blue;
+    font-size: 40px;
+    left: 50px;
+}
 
-  .card {
-    /* A flex-basis of 200px sets the starting width */
-    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
-    flex: 1 0 200px;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-  }
-  
-  .card header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  .card {
-    /* With a flex-grow value of 2, this element grows twice as wide as others */
-    /* The second value, flex-shrink, defines how the element will shrink if it can't fit */
-    flex: 2 1 200px;
-  }
-  
+.vl {
+    border-left: 6px solid rgb(116, 199, 199);
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl2 {
+    border-left: 6px solid rgb(116, 199, 199);
+    height: 500px;
+    position: relative;
+    left: 200px;
+    margin-left: -3px;
+    bottom: 75px;
+}
+
+p {
+    position: relative;
+    display: inline-block;
+    margin-right: 100px;
+    left:250px;
+    bottom:125px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+}
+.large-image {
+    width: 50%;
+    height: auto;
+}
+.small-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px
+}
+.small-image {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    max-width: 500px;
+}
