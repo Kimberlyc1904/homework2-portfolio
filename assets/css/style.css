@@ -38,6 +38,14 @@ section h2 {
     height: 200px;
 }
 
+#work {
+    height: 200px;
+}
+
+#contact-me {
+    height: 200px;
+}
+
 h2 {
     color:blue;
     font-size: 40px;
