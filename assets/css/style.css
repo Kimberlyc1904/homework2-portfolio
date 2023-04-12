@@ -3,21 +3,21 @@
     background: url('./images/02-hero-bg.jpg') no-repeat center center;
 }
 
-.header-naviagtion {
+.header-navigation {
     display: flex;
     background-color: teal;
     justify-content: space-between;
 }
 
-.header-naviagtion nav ul {
+.header-navigation nav ul {
     display: flex;
     list-style: none;
 }
 
-.header-naviagtion nav ul li {
+.header-navigation nav ul li {
     /* Style the Nav Items */
-    display: inline-block;
-    margin-right: 20px;
+    margin-right: 25px;
+
 
 
 }
