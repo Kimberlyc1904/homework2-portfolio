@@ -1,113 +1,93 @@
-
 .header {
-    /* Defines how to distribute the empty space between child elements */
-    justify-content: space-between;
-    background: #13293d;
-    color: aquamarine
-    ;
-  }
-
-.header h1 {
-  display: inline-block;
-  vertical-align: middle;
-  background-color: aquamarine;
-  color:black;
-  padding: 5px;
-
-}
-header nav {
-    display: inline-block;
-    vertical-align: middle; 
-}
-
-a {
-    color:aquamarine
-}
-
-.header nav ul {
-    list-style-type: none;
-  }
-
-.header nav ul li {
-  position: relative;
-  display:inline-block;
-  margin-right: 25px;
-  left: 1200px;
-}
-
-.image-container {
-    width: 2000px;
     height: 200px;
-    overflow: hidden;
-    position: absolute;
-    text-align: center;
-    background-color: antiquewhite;
-    color: orange;
-
-}
-.bottom-left {
-    position: absolute;
-    top: 125px;
-    left: 1500px;
-    background-color: #fff;
-    font-size: 24px;
+    background: url('./images/02-hero-bg.jpg') no-repeat center center;
 }
 
-.main {
-    position: relative;
-    top: 200px;
+.header-naviagtion {
+    display: flex;
+    background-color: teal;
+    justify-content: space-between;
+}
+
+.header-naviagtion nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-naviagtion nav ul li {
+    /* Style the Nav Items */
+    display: inline-block;
+    margin-right: 20px;
+
+
+}
+
+section {
+    display: flex;
+    min-height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+#about-me {
+    height: 200px;
 }
 
 h2 {
-    position:relative;
     color:blue;
     font-size: 40px;
     left: 50px;
 }
 
 .vl {
-    border-left: 6px solid rgb(116, 199, 199);
-    height: 100px;
+    background-color: aquamarine;
+    width: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.images {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.large-image-wrapper {
+    border: 3px solid aquamarine;
+    height: 250px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.title {
     position: absolute;
-    left: 200px;
-    margin-left: -3px;
-    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: aquamarine;
+    padding: 10px;
 }
 
-.vl2 {
-    border-left: 6px solid rgb(116, 199, 199);
-    height: 500px;
-    position: relative;
-    left: 200px;
-    margin-left: -3px;
-    bottom: 75px;
-}
-
-p {
-    position: relative;
-    display: inline-block;
-    margin-right: 100px;
-    left:250px;
-    bottom:125px;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
-    gap: 20px;
-}
 .large-image {
-    width: 50%;
-    height: auto;
-}
-.small-images {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap:20px
-}
-.small-image {
-    width: 100%;
     height: 100%;
-    object-fit:fill;
-    max-width: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.small-images {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.small-image {
+    border: 3px solid aquamarine;
+    flex-grow: 1;
+    height: 250px;
+    object-fit: cover;
 }
