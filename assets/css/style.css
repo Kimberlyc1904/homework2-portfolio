@@ -17,11 +17,13 @@
 .header-navigation nav ul li {
     /* Style the Nav Items */
     margin-right: 25px;
-
-
-
 }
 
+.profile-image {
+    justify-content: space-evenly;
+    width: 150px;
+    height: 150px;
+}
 section {
     display: flex;
     min-height: 1px;
@@ -45,7 +47,9 @@ section h2 {
 #contact-me {
     height: 200px;
 }
-
+#resume {
+    height: 200px;
+}
 h2 {
     color:blue;
     font-size: 40px;
