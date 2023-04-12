@@ -91,15 +91,18 @@ h2 {
     object-fit: cover;
 }
 
-.small-images {
+.small-images-wrapper {
     display: flex;
     flex-grow: 1;
+    flex-direction: row;
     flex-wrap: wrap;
 }
-
-.small-image {
+.small-images {
     border: 3px solid aquamarine;
     flex-grow: 1;
-    height: 250px;
     object-fit: cover;
+    width: 25rem;
+}
+.small-image {
+    width: 100%;
 }
