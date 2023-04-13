@@ -29,7 +29,7 @@ Users are able to click on the photos which will take them to linked pages with 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![screenshot](./assets/css/images/screenShot)
+![screenshot](./assets/css/images/ScreenShot)
 
 ## Credits
 
