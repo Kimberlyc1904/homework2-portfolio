@@ -29,13 +29,13 @@ Users are able to click on the photos which will take them to linked pages with 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenShot)
+![alt text](assets/css/images/screenShot)
 
 ## Credits
 
-Student Erwin Jocosing @ github.com/ej619
-TA Nick
-Tutor Rene Trevino
-MDN Docs https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout
-ChatGPT
+#Student Erwin Jocosing @ github.com/ej619; 
+#TA Nick
+#Tutor Rene Trevino
+#MDN Docs https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout
+#ChatGPT
 
