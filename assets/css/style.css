@@ -96,13 +96,29 @@ h2 {
     flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 .small-images {
     border: 3px solid aquamarine;
     flex-grow: 1;
-    object-fit: cover;
-    width: 25rem;
+    object-fit: contain;
+    width: 30rem;
+    position: relative;
 }
 .small-image {
     width: 100%;
+}
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+#contact-me {
+    display: flex;
+    align-items: center;
 }
