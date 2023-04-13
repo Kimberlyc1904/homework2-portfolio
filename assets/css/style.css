@@ -1,6 +1,9 @@
+
 .header {
-    height: 200px;
+   height: 20rem;
     background: url('./images/02-hero-bg.jpg') no-repeat center center;
+    background-size: 100%;
+    object-fit: cover;
 }
 
 .header-navigation {
@@ -38,7 +41,9 @@ section h2 {
 
 #about-me {
     height: 200px;
+
 }
+
 
 #work {
     height: 200px;
